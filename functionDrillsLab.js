@@ -12,8 +12,8 @@
 */
 
 //CODE HERE
-// let helloWorld = "Hello, World!"
-// console.log(helloWorld)
+let helloWorld = "Hello, World!"
+console.log(helloWorld)
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -22,10 +22,10 @@
 */
 
 //CODE HERE
-// const jsNinja = () => {
-//   return "I am a JavaScript ninja!";
-// }
-// console.log(jsNinja())
+const jsNinja = () => {
+  return "I am a JavaScript ninja!";
+}
+console.log(jsNinja())
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -35,11 +35,11 @@
 */
 
 //CODE HERE
-// function printName(){
-//   return "Cameron";
-// }
+function printName(){
+  return "Cameron";
+}
 
-// console.log(printName())
+console.log(printName())
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -53,10 +53,10 @@
 */
 
 //CODE HERE
-// function greeting(name){
-//   return `Hello, ${name}`
-// }
-// console.log(greeting(`Jake!`))
+function greeting(name){
+  return `Hello, ${name}`
+}
+console.log(greeting(`Jake!`))
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -70,15 +70,15 @@
 */
 
 //CODE HERE
-// const compareNums = (num1, num2) => {
-//   if(num1 >= num2){
-//     return num1
-//   } else {
-//     return num2
-//   }
-// }
+const compareNums = (num1, num2) => {
+  if(num1 >= num2){
+    return num1
+  } else {
+    return num2
+  }
+}
 
-// console.log(compareNums(10 ,50))
+console.log(compareNums(10 ,50))
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -91,15 +91,15 @@
 
 //CODE HERE
 
-// function add (num1, num2){
-//   let newNum1 = parseInt(num1);
-//   let newNum2 = parseInt(num2);
-//   return newNum1 + newNum2;
-// }
+function add (num1, num2){
+  let newNum1 = parseInt(num1);
+  let newNum2 = parseInt(num2);
+  return newNum1 + newNum2;
+}
 
-// let sum = add("3", 4);
+let sum = add("3", 4);
 
-// console.log(sum);
+console.log(sum);
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -108,13 +108,13 @@
   Uncomment the answer underneath.
 */
 
-// const exclaim = function(str) {
-//   return str.toUpperCase() + '!!!'
-// }
+const exclaim = function(str) {
+  return str.toUpperCase() + '!!!'
+}
 
 // arrow
 // declaration
-// expression
+expression
 
 
 
@@ -125,11 +125,11 @@
   Uncomment the answer underneath.
 */
 
-// const exclaimTwo = str => {
-//   return str.toUpperCase() + '!!!'
-// }
+const exclaimTwo = str => {
+  return str.toUpperCase() + '!!!'
+}
 
-// arrow
+arrow
 // declaration
 // expression
 
@@ -140,7 +140,7 @@
   Brownie points if you use a template string
 */
 
-
+const exclaimThree = str => `${str.toUpperCase()}!`
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -149,12 +149,12 @@
   Uncomment the answer underneath.
 */
 
-// function exclaimFour(str) {
-//   return str.toUpperCase() + '!!!'
-// }
+function exclaimFour(str) {
+  return str.toUpperCase() + '!!!'
+}
 
 // arrow
-// declaration
+declaration
 // expression
 
 
@@ -168,18 +168,18 @@
 */
 
 //CODE HERE
-// function nameCheck(nam) {
-//   if (nam === "Steven") {
-//   return ("What's up Steven?")
-//   } else if (nam === "Bryan") {
-//     return ("Hey Bryan!")
-//     } else { 
-//       return (`Cool name, ${nam}`)
-//     }
-// }
+function nameCheck(nam) {
+  if (nam === "Steven") {
+  return ("What's up Steven?")
+  } else if (nam === "Bryan") {
+    return ("Hey Bryan!")
+    } else { 
+      return (`Cool name, ${nam}`)
+    }
+}
 
-// let nameGreeting = nameCheck("Bryan")
-// console.log(nameGreeting)
+let nameGreeting = nameCheck("Bryan")
+console.log(nameGreeting)
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -193,19 +193,19 @@
 */
 
 //CODE HERE
-// function faveColorFinder(color) {
-//   if (color === `Red`) {
-//   return (`Red is a great color`)
-//   } else if (color === `Green`) {
-//     return (`green is a solid favorite color`)
-//     } else if (color === `Black`){
-//       return (`so trendy`)
-//     } else {
-//       return (`you need to evaluate your favorite color choice`)
-//     }
-//   }
-// let colorRating = faveColorFinder(`Red`)
-// console.log(colorRating)
+function faveColorFinder(color) {
+  if (color === `Red`) {
+  return (`Red is a great color`)
+  } else if (color === `Green`) {
+    return (`green is a solid favorite color`)
+    } else if (color === `Black`){
+      return (`so trendy`)
+    } else {
+      return (`you need to evaluate your favorite color choice`)
+    }
+  }
+let colorRating = faveColorFinder(`Red`)
+console.log(colorRating)
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -215,13 +215,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Call the function, passing in the `namesArr` array (above).
 */
 
-//CODE HERE
-// function printAllNames(namesArr) {
-//   for (let i = 0; i < namesArr.length; i++){
-//     console.log(namesArr[i])
-//   }
-// }
-// printAllNames(namesArr)
+// CODE HERE
+function printAllNames(namesArr) {
+  for (let i = 0; i < namesArr.length; i++){
+    console.log(namesArr[i])
+  }
+}
+printAllNames(namesArr)
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
@@ -231,16 +231,16 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-// function thatsOdd(num){
-//   if (num %2=== 0) {
-//   return(`That's not odd!`)
-//   } else { 
-//     return (`That is odd indeed!`)
-//   }
-// }
-// let oddChecker = thatsOdd(3)
+function thatsOdd(num){
+  if (num %2=== 0) {
+  return(`That's not odd!`)
+  } else { 
+    return (`That is odd indeed!`)
+  }
+}
+let oddChecker = thatsOdd(3)
 
-// console.log(oddChecker)
+console.log(oddChecker)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -253,10 +253,10 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-// const bestMovie = (str) => {
-//   return `${str} is the best movie ever!`;
-// }
-// console.log(bestMovie(`Sharknado`))
+const bestMovie = (str) => {
+  return `${str} is the best movie ever!`;
+}
+console.log(bestMovie(`Sharknado`))
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
@@ -292,6 +292,16 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
+function theEliminator(contestants, loser) {
+  for (let i = 0; i < contestants.length; i++) {
+    if (contestants[i] === loser) {
+      contestants.splice(i, 1)
+    }
+  }
+  return contestants
+}
+
+let updatedContestants = theEliminator(contestants, loser)
 
 
 ////////////////// PROBLEM 17 ////////////////////
@@ -302,7 +312,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+function makeUppercase(str) {
+  console.log(str.toUpperCase())
+}
 
+makeUppercase(sampleString)
 
 ////////////////// PROBLEM 18 ////////////////////
 /*
@@ -314,6 +328,16 @@ let sampleString = "Hi, my name is Kylo."
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
 */
+function emailCheck(email) {
+  email = String(email).trim()
+
+  if (email.includes('@')) {
+    return 'email verified'
+  } else {
+    return 'must provide a valid email address'
+  }
+}
+
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
@@ -322,7 +346,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+function frogPurchaser(gold) {
+  return gold / 3
+}
 
+let totalFrogs = frogPurchaser(100)
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
@@ -330,7 +358,17 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+function frogPurchaser2(gold) {
+  if (gold % 3 === 0) {
+    return gold / 3
+  } else if ((gold - 1) % 3 === 0) {
+    return (gold - 1) / 3
+  } else {
+    return (gold - 2) / 3
+  }
+}
 
+let totalFrogs2 = frogPurchaser2(100)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
@@ -339,7 +377,19 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 */
 
 //CODE HERE
+function checkArrayAscending(arr) {
+  let comparisonValue = arr[0]
+  for (let i = 1; i < arr.length - 1; i++) {
+    if (arr[i] <= comparisonValue) {
+      return false
+    } else {
+      comparisonValue = arr[i]
+    }
+  }
+  return true
+}
 
+let arrayIsAscending = checkArrayAscending(sampleArray)
 
 ////////////////// PROBLEM 22 ////////////////////
 
@@ -363,13 +413,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = ["duck"]
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = ["duck", "rubberDuck"]
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"]
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+let pondScope = ["duck", "realDuck"]
